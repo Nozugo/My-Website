@@ -1,0 +1,420 @@
+.subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    /* height: 36px;
+    width: 112.922px; */
+    padding: 10px 16px 10px 16px;
+    /* The advantage using*/
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.subscribe-button:hover {
+    opacity: 0.8;
+}
+
+.subscribe-button:active {
+    opacity: 0.6;
+}
+
+.join-button {
+    color: blue;
+    background-color: white;
+    border: 1px solid rgb(6, 95, 212);
+    /* width: 63px;
+    height: 36px; */
+    padding: 9px 15px 9px 15px;
+    /* I reduce the pixel by 1, because the border add more space like 1px */
+
+    /* Spaces between elements */
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    border-radius: 2px;
+}
+
+.join-button:hover {
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 60%;
+}
+
+.tweet-button {
+    height: 36px;
+    width: 74px;
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background-color: rgb(29, 155, 240);
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    vertical-align: top;
+}
+.tweet-button:hover {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.tweet-button:active {
+    opacity: 0.6;
+}
+
+/* ------------- Exercises ------------- */
+
+/* 2a */
+.uber-button {
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.uber-button:hover {
+    opacity: 80%;
+}   
+.uber-button:active {
+    opacity: 60%;
+}
+
+/* 2b */
+.amazon-button {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    width: 140px;
+    height: 30px;
+    border-radius: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.amazon-button:hover {
+    background-color: rgb(241, 218, 3);
+}
+.amazon-button:active {
+    opacity: 0.6;
+}
+
+/* 2c */
+.github-button {
+    background-color: rgb(46, 164, 79);
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.github-button:hover {
+    opacity: 0.8;
+}
+.github-button:active {
+    opacity: 0.6;
+}
+
+/* 3d */
+.bootstrap-button {
+    width: 90px;
+    height: 30px;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.bootstrap-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+/* 3f */
+.tiga-f h1 {
+    font-family: Roboto;
+    margin-bottom: 0;
+}
+.tiga-f p {
+    margin-top: 0;
+    font-family: Fira Code;
+}
+
+.buttons-exercises a:hover {
+    color: rgba(226, 113, 7, 0.966)
+}
+.p1 {
+    color: green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.add-button {
+    font-family: Fira Code;
+    background-color: yellow;
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+}
+.add-button:hover {
+    background-color: rgb(230, 230, 0);
+}
+.add-button:active {
+    opacity: 0.6;
+}
+
+.buy-button {
+    background-color: orange;
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+.buy-button:hover {
+    background-color: rgb(231, 150, 0);
+}
+.buy-button:active {
+    opacity: 0.6;
+}
+
+/* 4h */
+.back-button {
+    margin-right: 8px;
+}
+.next-button {
+    margin-left: 8px;
+}
+.empat a {
+    margin-right: 5px;
+}
+
+.stretch-button {
+    background-color: green;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    cursor: pointer;
+    transition: padding 1s;
+}
+.stretch-button:hover {
+    padding: 25px 75px 25px 75px;
+}
+
+.shadow-button {
+    background-color: green;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+.shadow-button:active {
+    box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+.one-two-three {
+    background-color: green;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px;
+    transition: padding 0.5s, margin 0.5s;
+}
+.one-two-three:hover {
+    padding: 5px 20px 5px 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.text-styles {
+    font-family: Arial;
+    width: 300px;
+}
+.text-styles img {
+    width: 60px;
+    height: 60px;
+}
+.video-title {
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    /* margin-top: -2px;
+    margin-bottom: -10px; */
+    line-height: 26px;
+    margin-top: 0;
+}
+.video-stats {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin-top: 2px;
+}
+.channel-title {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(96, 96, 96);
+
+}
+.video-description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+
+.apple-text {
+    font-family: Arial;
+    width: 100%;
+    background-color: #e34140;
+    color: white;
+    text-align: center;
+    padding: 18px 0 18px 0;
+}
+
+.apple-text a {
+    text-decoration: none;
+    color: white;
+}
+.apple-text a:hover {
+    text-decoration: underline;
+}
+
+/* Text styles exercises */
+
+.text-styles-exercises_basic {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.course-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.course-subtitle {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+}
+.text-styles-exercises_basic button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-styles-exercises_basic button:hover {
+    filter: brightness(90%);
+}
+.text-styles-exercises_basic button:active {
+    opacity: 0.8;
+}
+
+/* 5g */
+.lima-g {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price-title {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.price-title span {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 0;
+}
+.price-plus {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: rgb(46, 164, 79);
+    font-size: 14px;
+}
+.price-explanation {
+    font-size: 14px;
+    margin-top: 0;
+    color: rgb(96, 96, 96);
+}
+.price-explanation span {
+    color: red
+}
+
+/* 5f */
+.lima-f {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.acc-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+.acc-name span {
+    font-weight: lighter;
+    color: rgb(122, 122, 122);
+}
+.acc-comment1 {
+    margin-top: 0;
+    font-size: 14px;
+}
+.acc-comment2 {
+    font-size: 14px;
+}
+.acc-comment2 span {
+    color:rgb(29, 155, 240)
+}
+
+/* ------------- End ------------- */
+
+.pertama {
+    margin-top: 50px;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    animation: pertama-move 5s infinite;
+    position: relative;
+    box-shadow: 10px 10px 5px gray;
+
+}
+
+@keyframes pertama-move {
+    0% {
+        left: 0px;
+        right: 0px;
+    }
+    50% {
+        left: 500px;
+        right: 0px
+    }
+    100% {
+        right: 500px;
+        left: 0px;
+    }
+}
+
+.kedua {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    transition: width 2s, background-color 2s, color 2s;
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+.kedua:hover {
+    width: 500px;
+    background-color: aqua;
+    color: white;
+}
